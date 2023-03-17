@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&family=Outfit:wght@100;700&display=swap');
+import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&family=Outfit:wght@100;700&display=swap');
 
 * {
     margin: 0;
@@ -24,8 +24,9 @@ body {
 .container {
     background-color: white;
     border-radius: 6%;
-    width: 780px;
-    height: 550px;
+    width: 40%;
+    max-width: 1440px;
+    min-width: 540px;
     display: flex;
     flex-wrap: wrap;
 }
@@ -33,8 +34,7 @@ body {
 .result {
     background-image: linear-gradient(hsl(241, 81%, 54%),hsla(256, 72%, 46%, 1));
     border-radius: 6%;
-    width: 390px;
-    height: 550px;
+    width: 50%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -64,8 +64,7 @@ body {
 .summary {
     display: flex;
     flex-direction: column;
-    width: 390px;
-    height: 550px;
+    width: 50%;
     color: hsl(224, 30%, 27%);
     padding: 2rem 3rem;
     gap: 2rem 0;
